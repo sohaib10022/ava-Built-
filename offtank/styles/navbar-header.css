@@ -1,0 +1,301 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* background-image: url(/youtube/aaaaa.png);
+  background-size: contain;
+  background-repeat: no-repeat; */
+  overflow-x:hidden ;
+
+}
+
+.aa{
+  width: 100vw;
+  height: 100dvh;
+  background-image: url(../img/Video/AA.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar{
+  
+position: relative;
+z-index: 1;
+list-style: none;
+margin: 0;
+padding: 0;
+border-radius: 5px;
+overflow: auto;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* background-color: rgba(1, 1, 1, 0.355); */
+
+}
+
+.navbar li{
+float: right;
+}
+.navbar a{
+display: block;
+color: rgb(0, 0, 0);
+font-size: 20px;
+text-decoration: none;
+padding: 30px 30px;
+}
+.navbar li a:hover{
+color: wheat;
+background-color: rgba(34, 28, 17, 0.152);
+
+}
+.navbar li:last-child{
+float: left;
+margin: 10px ;
+}
+
+.home-link-svg{
+width: 60px;
+}
+
+
+.navbar li a:hover{
+  color: rgb(10, 7, 0);
+  background-color: rgba(34, 28, 17, 0.152);
+  font-size: 20px;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff42;
+  background-image: url(../img/back1.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+  
+  }
+
+
+
+.taxt-box{
+  width: 900px;
+  height: 20%;
+  color: #fff;
+  position:absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+#h1-ava{
+  z-index: 10;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background-image: url(../img/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back {
+  100%{
+    background-position: 2000px 0 ;
+  }
+}
+
+/* Welcome to */
+#h1-ava1{
+  bottom: 260px;
+  z-index: 10;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background-image: url(../img/back2.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back {
+  100%{
+    background-position: 2000px 0 ;
+  }
+}
+
+
+
+
+#icon{
+  margin-left: 300px;
+  margin-top: -300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:450px) {
+
+  body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-image: url(/youtube/aaaaa.png);
+    background-size: contain;
+    background-repeat: no-repeat; */
+    overflow-x:hidden ;
+  
+  }
+
+  .aa{
+    width: 300vw; 
+    height: 300dvh;
+    background-image: url(/youtube/aaaaa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .navbar a{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 30px 30px;
+    }
+
+
+
+
+
+
+  /* .navbar a{
+    color: red;
+    font-size: 1.2em;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 4px 10px;
+} */
+/* .navbar li:last-child{
+  float: left;
+  margin: 2px ;
+  }
+  .home-link-svg{
+    width: 30px;
+    }
+    #h1-ava{
+      font-size: 1.2em;
+      bottom: 350%;
+    } */
+    /* #h1-ava1{
+      font-size: 1.2em;
+      bottom: 366%;
+    }
+    @keyframes back {
+      100%{
+        background-position: 900px 0 ;
+      }
+    } */
+
+
+
+    .taxt-box{
+      width: 900px;
+      height: 2%;
+      color: #fff;
+      position:absolute;
+      bottom: 2%;
+      left: 5%;
+      
+    }
+
+    #icon{
+      margin-left: 20px;
+      margin-top: 1039px;
+    }
+    
+    #h1-ava{
+      
+      bottom: -1050px;
+      z-index: 10;
+      position: absolute;
+      font-family: 'Roboto', sans-serif;
+      font-size: 120px;
+      font-weight: 900;
+      color: transparent;
+      -webkit-text-stroke: 1px #fff;
+      background-image: url(../img/back.png);
+      -webkit-background-clip: text;
+      background-position: 0 0;
+      animation: back 20s linear infinite;
+    }
+    @keyframes back {
+      100%{
+        background-position: 9000px 0 ;
+      }
+    }
+    
+    
+    #h1-ava1{
+      bottom: -800px;
+      z-index: 10;
+      position: absolute;
+      font-family: 'Roboto', sans-serif;
+      font-size: 150px;
+      font-weight: 900;
+      color: transparent;
+      -webkit-text-stroke: 1px #fff;
+      background-image: url(../img/back2.png);
+      -webkit-background-clip: text;
+      background-position: 0 0;
+      animation: back 20s linear infinite;
+    }
+    @keyframes back {
+      100%{
+        background-position: 2000px 0 ;
+      }
+    }
+
+
+
+
+}

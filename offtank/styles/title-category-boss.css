@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containers {
+  height: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.card {
+  width: 80px;
+  border-radius: .75rem;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28,-0.03,0,.99);
+  box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.card > .row {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card > .row > .icon  {
+  background: #223;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.card > .row > .description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 520px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition-delay: .3s;
+  transition: all .3s ease;
+}
+
+.description p {
+  color: #b0b0ba;
+  padding-top: 5px;
+}
+
+.description h4 {
+  text-transform: uppercase;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  width: 600px;
+}
+
+input:checked + label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+
+
+.card[for="c1"]{ background-image: url("../img/boss/DANCE\ QUEEN\ 1.png")}
+.card[for="c2"]{ background-image: url("../img/boss/PINATA.png")}
+.card[for="c3"]{ background-image: url("../img/boss/BASILISK.png")}
+.card[for="c4"]{ background-image: url("../img/boss/KNIGNT.png")}
+.card[for="c5"]{ background-image: url("../img/boss/construct.png")}
+.card[for="c6"]{ background-image: url("../img/boss/LAST\ BOSS.png")}
+.a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Calibri,sans-serif;
+  overflow-x: hidden;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.panel{
+  width: 1000px;
+  height: 50vh;
+  box-shadow: 0 0 10px black;
+  margin: 20px;
+  border-radius: 20px;
+  flex: 1;
+  background: white no-repeat scroll center;
+  transition: all 0.5s linear;
+  filter: grayscale(1);
+  position: relative;
+}
+.panel a{
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  color: white;
+  font-size: 40px;
+  transform: rotate(-90deg);
+  transition: all 0.5s linear;
+}
+.active{
+  flex: 6;
+  filter: grayscale(0);
+}
+.active a{
+  transform: rotate(0deg);
+  left: 50px;
+  top: 50px;
+  text-shadow: 0 0 3px black;
+}
+
+#panel-1{ background-image: url("https://cdn.discordapp.com/attachments/965312574289739866/1170815752631234600/Screenshot_10.png?ex=655a6a24&is=6547f524&hm=f2f08cd8a5555739bcd293a4262f707a5c8905300b800358eaa06d1684ce4f20&")}
+#panel-2{ background-image: url("https://cdn.discordapp.com/attachments/965312574289739866/1169760046830334132/batch.png?ex=655692f0&is=65441df0&hm=20fae8b1977bbbf50554e0402aedd473b1541fc1ee8e35facc5212ed326dc5f3&")}
+#panel-3{ background-image: url("https://cdn.discordapp.com/attachments/965312574289739866/1169766064394076390/baze.png?ex=6556988a&is=6544238a&hm=b8329acb0faaf8fa8c6b108af9b56f33db722efbcf230e162545bb5468082e83&")}
+#panel-4{ background-image: url("https://cdn.discordapp.com/attachments/965312574289739866/1169772927068156026/Screenshot_87.png?ex=65569eef&is=654429ef&hm=e0a5144a4ad5c2317e17959d33638c7ed93dbeb88c15622e7ead30596e0ffce3&")}
+#panel-5{ background-image: url("https://cdn.discordapp.com/attachments/965312574289739866/1179904876625526965/Screenshot_200.jpg?ex=657b7b0c&is=6569060c&hm=dc686542250edbdbabe3e760d1ae9e9f9cf812bc5460b9236f6c889f36d5d65e&")}
+#panel-6{ background-image: url("https://cdn.discordapp.com/attachments/965312574289739866/1170733824074862612/Screenshot_110.png?ex=655a1dd6&is=6547a8d6&hm=d78181221e2530669266c883e65e98a6e249dc03d7489300f778f07e7d7a244f&")}
+
+.container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 200px;
+  margin-left: 300px;
+  /*
+  margin: 50px 0;}
+  */
